@@ -16,12 +16,10 @@ import commentRoutes from '@/routes/v1/comment';
 /**
  * Root route
  */
-router.get('/', (req, res) => {
+router.get('/health', (req, res) => {
   res.status(200).json({
-    message: 'API is live',
+    message: 'Blog API is live',
     status: 'ok',
-    version: '1.0.0',
-    docs: 'https://docs.blog-api.codewithsadee.com',
     timestamp: new Date().toISOString(),
   });
 });

@@ -1,10 +1,6 @@
-That's the one\! Thanks for providing the direct URL to your image.
-
-Here's your updated `README.md` with the banner image, all the refactoring, adjusted emojis, and general polish. This should make your project's GitHub page look even more professional and engaging\!
-
+ 
 ```markdown
-![Node.js Blog REST API Banner](https://raw.githubusercontent.com/JeremyG11/gatwech-nguth-assets/main/Frame%206.png)
-
+![Node.js Blog REST API Banner](https://raw.githubusercontent.com/JeremyG11/gatwech-nguth-assets/main/blog-api-banner.png)
 # 📝 Node.js Blog REST API
 
 A modular and production-ready REST API for blogging platforms, built using **Node.js**, **TypeScript**, **Express**, and **MongoDB**. This backend empowers users with features like registration, secure login, blog post creation, commenting, liking, and more – all secured with JWT authentication and featuring cloud image support via Cloudinary.
