@@ -1,11 +1,9 @@
-That's the one\! Thanks for providing the direct URL to your image.
 
-Here's your updated `README.md` with the banner image, all the refactoring, adjusted emojis, and general polish. This should make your project's GitHub page look even more professional and engaging\!
 
-```markdown
-![Node.js Blog REST API Banner](https://raw.githubusercontent.com/JeremyG11/gatwech-nguth-assets/main/Frame%206.png)
+![Node.js Blog REST API Banner](https://github.com/JeremyG11/gatwech-nguth-assets/blob/9ff93f4f906b9f7a04914b0ae4edbd67fb572e9c/Frame%206%20(1).png?raw=true)
 
 # 📝 Node.js Blog REST API
+
 
 A modular and production-ready REST API for blogging platforms, built using **Node.js**, **TypeScript**, **Express**, and **MongoDB**. This backend empowers users with features like registration, secure login, blog post creation, commenting, liking, and more – all secured with JWT authentication and featuring cloud image support via Cloudinary.
 
@@ -15,13 +13,13 @@ A modular and production-ready REST API for blogging platforms, built using **No
 
 This project leverages a robust and modern tech stack:
 
-* **Node.js** & **Express**: The core backend runtime and web framework for efficient routing and API development.
-* **TypeScript**: Ensures strong typing, leading to more robust, maintainable, and scalable code.
-* **MongoDB + Mongoose**: A flexible NoSQL database solution with Mongoose for elegant ODM (Object Data Modeling).
-* **🔑 JWT (JSON Web Tokens)**: For secure, stateless authentication and authorization.
-* **☁️ Cloudinary**: Integrated for seamless and efficient cloud-based image uploads and management.
-* **🪵 Winston**: A powerful logging library for comprehensive application monitoring and debugging.
-* **🚦 Rate Limiting**: Implemented to protect the API from abuse and ensure stability.
+- **Node.js** & **Express**: The core backend runtime and web framework for efficient routing and API development.
+- **TypeScript**: Ensures strong typing, leading to more robust, maintainable, and scalable code.
+- **MongoDB + Mongoose**: A flexible NoSQL database solution with Mongoose for elegant ODM (Object Data Modeling).
+- **🔑 JWT (JSON Web Tokens)**: For secure, stateless authentication and authorization.
+- **☁️ Cloudinary**: Integrated for seamless and efficient cloud-based image uploads and management.
+- **🪵 Winston**: A powerful logging library for comprehensive application monitoring and debugging.
+- **🚦 Rate Limiting**: Implemented to protect the API from abuse and ensure stability.
 
 ---
 
@@ -29,50 +27,50 @@ This project leverages a robust and modern tech stack:
 
 The project follows a clear and organized modular structure for better maintainability and scalability:
 
-```
 
+```
+bash
 src/
-├── config/           \# ⚙️ Application-wide configurations
+├── config/ # ⚙️ Application-wide configurations
 │ └── index.ts
-├── controllers/v1/   \# 💡 Route logic, grouped by resource for API version 1
+├── controllers/v1/ # 💡 Route logic, grouped by resource for API version 1
 │ ├── auth/
 │ ├── blog/
 │ ├── comment/
 │ ├── like/
 │ └── user/
-├── lib/              \# 🛠️ Core libraries and utility modules
+├── lib/ # 🛠️ Core libraries and utility modules
 │ ├── cloudinary.ts
-│ ├── express\_rate\_limit.ts
+│ ├── express_rate_limit.ts
 │ ├── jwt.ts
 │ ├── mongoose.ts
 │ └── winston.ts
-├── middlewares/      \# 🛡️ Custom Express middleware functions
+├── middlewares/ # 🛡️ Custom Express middleware functions
 │ ├── authenticate.ts
 │ ├── authorize.ts
 │ ├── uploadBlogBanner.ts
 │ └── validationError.ts
-├── models/           \# 📚 Mongoose schemas and models
+├── models/ # 📚 Mongoose schemas and models
 │ ├── blog.ts
 │ ├── comment.ts
 │ ├── like.ts
 │ ├── token.ts
 │ └── user.ts
-├── routes/v1/        \# ➡️ Express API routes for version 1
+├── routes/v1/ # ➡️ Express API routes for version 1
 │ ├── auth.ts
 │ ├── blog.ts
 │ ├── comment.ts
 │ ├── like.ts
 │ ├── user.ts
 │ └── index.ts
-├── @types/           \# 🏷️ Custom TypeScript type definitions
+├── @types/ # 🏷️ Custom TypeScript type definitions
 │ └── express/
 │ └── index.d.ts
-├── utils/            \# ✨ General utility functions
+├── utils/ # ✨ General utility functions
 │ └── index.ts
-└── server.ts         \# 🚀 Application entry point
+└── server.ts # 🚀 Application entry point
 
-````
-
+```
 ---
 
 ## ✨ Features
@@ -95,7 +93,7 @@ To get started with the project, follow these steps:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/JeremyG11/TS-node-blog-RESTAPI.git](https://github.com/JeremyG11/TS-node-blog-RESTAPI.git)
+    git clone https://github.com/JeremyG11/TS-node-blog-RESTAPI.git
     cd TS-node-blog-RESTAPI
     ```
 2.  **Install dependencies** (using pnpm is recommended):
