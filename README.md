@@ -1,13 +1,7 @@
-<<<<<<< HEAD
- 
-```markdown
-![Node.js Blog REST API Banner](https://raw.githubusercontent.com/JeremyG11/gatwech-nguth-assets/main/blog-api-banner.png)
-=======
 
 
 ![Node.js Blog REST API Banner](https://github.com/JeremyG11/gatwech-nguth-assets/blob/9ff93f4f906b9f7a04914b0ae4edbd67fb572e9c/Frame%206%20(1).png?raw=true)
 
->>>>>>> c20de21f8f17865df368338b8327822c2a4b0307
 # 📝 Node.js Blog REST API
 
 
